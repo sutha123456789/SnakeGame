@@ -49,7 +49,7 @@ public:
 	Color& operator =( Color color )
 	{
 		dword = color.dword;
-		return *this;
+	 	return *this;
 	}
 	constexpr unsigned char GetX() const
 	{
